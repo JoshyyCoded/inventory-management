@@ -1,10 +1,13 @@
-using System;
+using ViewInventory;
 
-class Program
+namespace InventoryManagement
 {
-    static void Main(string[] args)
+    class Program
     {
-        InventoryView view = new InventoryView();
-        view.Run();
+        static void Main(string[] args)
+        {
+            InventoryView view = new InventoryView();
+            view.Run();
+        }
     }
 }
